@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <Button
+        android:id="@+id/linear"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/bar"
+        android:layout_marginBottom="233dp"
+        android:background="@color/colorAccent"
+        android:text="Line Graph"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/pie"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/bar"
+        android:layout_marginTop="193dp"
+        android:background="@color/colorAccent"
+        android:text="@string/pie_chart"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/bar"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginTop="256dp"
+        android:background="@color/colorAccent"
+        android:text="@string/bar_chart"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"
+        android:text="@string/type_of_report"
+        android:textAllCaps="false"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignTop="@+id/linear"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/ic_linearchart" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/pie"
+        android:layout_marginLeft="92dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/ic_piechart" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignStart="@+id/imageView5"
+        android:layout_alignTop="@+id/bar"
+        app:srcCompat="@drawable/ic_report" />
+
+
+</RelativeLayout>

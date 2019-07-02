@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">smartER</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string-array name="present">
+        <item>Hourly</item>
+        <item>Daily</item>
+    </string-array>
+
+    <string-array name="noofres">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="energyprovider">
+        <item>AGL Enerygy</item>
+        <item>Dodo Power and Gas</item>
+        <item>Lumo Energy</item>
+        <item>Powershop</item>
+        <item>Origin Energy</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="linear_chart">Linear Chart</string>
+    <string name="pie_chart">Pie Chart</string>
+    <string name="bar_chart">Bar Chart</string>
+    <string name="type_of_report">Type of Report</string>
+    <string name="date">Date</string>
+    <string name="select_date">Select Date</string>
+</resources>

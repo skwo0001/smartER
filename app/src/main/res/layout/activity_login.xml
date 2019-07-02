@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="329dp"
+        android:layout_height="166dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/username"
+        android:layout_alignLeft="@+id/imageView2"
+        android:text="Username :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/password"
+        android:layout_alignStart="@+id/imageView2"
+        android:text="Password :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="235dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="262dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <Button
+        android:id="@+id/loginbutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/registerbutton"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <Button
+        android:id="@+id/registerbutton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="93dp"
+        android:layout_marginEnd="104dp"
+        android:text="Register"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/registerbutton"
+        android:layout_toStartOf="@+id/registerbutton"
+        android:text="Do not have account? "
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <TextView
+        android:id="@+id/errormsg"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="226dp"
+        android:gravity="center"
+        android:textColor="@color/traffic_red"
+        android:visibility="visible" />
+</RelativeLayout>
+
